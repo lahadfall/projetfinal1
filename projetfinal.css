@@ -1,0 +1,440 @@
+body{
+    background-color: aliceblue;
+    
+}
+.grand {
+    display: flex;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 10vh;
+    background-color: white;
+    padding: 20px;
+     
+}
+.grand a{
+  color: rgba(15, 148, 115, 0.856);
+}
+.button{
+  background-color: rgba(15, 148, 115, 0.856);
+  color: white;
+  height: 8vh;
+  width: 35vh;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p1page1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: normal;
+}
+.grand .navbar-brand{
+    font-size: larger;
+}
+.petit{
+    display: flex;
+}
+.peu a{
+    display: flex;
+    margin-left: 10px;
+    color: black;
+    font-size: large;
+    
+}
+.peu {
+    display: flex;
+    margin-left: 5px;
+    color: black;
+}
+.icone{
+    margin-left: 90vh;
+}
+/* .icone .d-flex{
+    margin-left: 50vh;
+} */
+.iconepetit{
+    display: flex;
+    margin-top: 2vh;
+    margin: 15px;
+}
+.iconepetit i{
+    margin-right: 30px;
+}
+
+/* Page 1 */
+.page1{
+    background-color: white;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 2px;
+    padding: 25vh;
+    
+}
+.a1page1{
+    font-size: x-large;
+    font-weight:700;
+    text-decoration: none;
+   font-style:normal;
+    color: rgba(15, 148, 115, 0.856);
+}
+
+/* Page 2 */
+.page2{
+    display: flex;
+    /* margin-left: 3vh;
+    margin-right: 3vh; */
+    margin-top: 20px;
+    margin-bottom: 5vh;
+    height: 70vh;
+}  
+.h1page2{
+    color: rgb(231, 158, 73);
+    /* border-bottom: solid rgb(231, 158, 73); */
+    font-size:xx-large;
+    font-weight:bolder;
+    font-family: sans-serif;
+    text-decoration: underline ;
+}
+.photo{
+    display: flex;
+    width: 10vh;
+    height: 45vh;
+    
+}
+.cadre1{
+    background-color: white;
+    margin-left: 15vh;
+    width: 50vh;
+    border-radius: 30px;
+}
+
+.cadre1 .im1{
+    width: 30vh;
+    height: 30vh;
+    margin-left: 7vh;
+    
+    }
+.cadre1 .im2{
+    width: 30vh;
+    height: 40vh;
+    margin-left: 7vh;
+    }
+.cadre2 img{
+    width: 25vh;
+    height: 30vh;
+    margin-right: 5vh;
+    /* margin-bottom: 10vh; */
+    border-radius: 0px 80px / 120px;
+    border-style:solid ;
+    border-width: 10px;
+    border-color: rgb(144, 144, 151);
+    
+    }
+.cadre2{
+    background-color: white;
+    margin-left: 6vh;
+    
+    padding: 10vh;
+    border-radius: 30px;
+}
+.cadre22{
+    margin-left: 15vh;
+}
+
+/* Page 3 */
+.h3page3{
+    text-align: center;
+    color: rgba(15, 148, 115, 0.856);
+    margin-bottom: 8vh;
+    padding-top: 20px;
+    font-size:xx-large;
+}
+.page3{
+    
+    margin-right: 15vh;
+    margin-bottom: 5vh; 
+    margin-left: 15vh;
+    margin-bottom: 5vh;
+    background-color: rgb(234, 240, 245);
+}
+
+.card-body{
+    text-align: center;
+    color: black;
+    height: 20vh;
+    margin-bottom: 15px;
+    height: 18vh;
+    line-height: normal;
+}
+.card-body h5{
+    margin-bottom: 3px;
+}
+.star{
+  display: flex;
+  justify-content: center;
+}
+.star_plain{
+  color: rgba(15, 148, 115, 0.856);
+  
+  
+}
+.star_vide{
+    color: rgb(161, 16, 16);
+
+}
+
+.col img{
+    width: 30vh;
+    height: 30vh;
+    margin-left: 5vh;
+    margin-top: 10px;
+}
+.col{
+    width: 45vh;
+    height: 65vh;
+    border-radius: 30px;
+    margin-left: 3vh;
+    
+}
+.card{
+    border-radius: 30px;
+}
+.card-footer{
+    background-color: rgba(15, 148, 115, 0.856);
+    text-align: center;
+    height: 8vh;
+    padding: 5px;
+    
+}
+.card-footer a{
+    
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.page4{
+    background-image:url(../css/img_projetfinal/pl4.jpg);
+    background-repeat: no-repeat ;
+    background-attachment: local;
+    background-size: cover;
+    background-position: right bottom;
+    /* padding: 50px; */
+    opacity: 0.9;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;
+    color: white;
+    height: 80vh;
+}
+.colpage4{
+    
+      margin-left: 5px;
+}
+.page4col{
+    margin-left: 45vh;
+    display: flex;
+    margin-top: 7vh; 
+}
+.page4 .colpage4 .card{
+    width: 40vh;
+    height: 62vh; 
+    border-radius: 10px;
+}
+
+.circle img{
+    width : 150px;
+    height : 150px;
+    border-style:solid;
+    border-radius : 100px;
+    background-color: rgb(241, 234, 234);
+  }
+  .page5{
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+  .lot1,.jus1,.lot2,.jus2{
+    display: flex;
+  }
+  .jus1{
+    margin-left: 40vh;
+    margin-top: 20vh;
+  }
+  .jus2{
+    margin-left: 40vh;
+    
+  }
+  .lot1{
+    margin-left: 20vh;
+  }
+  .lot2{
+    margin-top: 5vh;
+    margin-left: 10vh;
+  }
+  .jus1 img{
+    margin-right: 2vh;
+    
+  }
+  .bout1{
+    width: 20vh;
+    height: 45vh;
+    margin-bottom: 5px;
+  }
+  .bout2{
+    width: 60vh;
+    height: 40vh;
+  }
+  .avtar{
+    width: 60vh;
+    height: 70vh;
+  }
+  .ppage5{
+    padding-right: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15vh;
+  }
+  .form1{
+    justify-content: space-between;
+    background-image: url(../css/img_projetfinal/sachets\ group1.jpg);
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-position: center;
+    margin-bottom: 5vh;
+    padding: 13vh;
+    
+  }
+  .form1 input[type="email"]{
+    width: 100vh;
+    padding: 10px;
+    margin-left: 50vh;
+    margin-bottom: 30px;
+    border: none;
+  }
+  .form1 input[type="submit"]{
+    width: 40vh;
+    padding: 15px;
+    margin-left: 80vh;
+    border: none;
+    border-radius: 5%;
+    background-color:  rgba(15, 148, 115, 0.856);
+  }
+  .page6{
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;
+    color: white;
+    height: 80vh;
+    height: 75vh;
+}
+.page6 .h3page6{
+    color:  rgba(15, 148, 115, 0.856);
+}
+.colpage6{
+    
+      margin-left: 7px;
+}
+.page6col{
+    margin-left: 45vh;
+    display: flex;
+    margin-top: 9vh; 
+}
+.page6 .colpage6 .card{
+    width: 43vh;
+    height: 58vh; 
+    border-radius: 10px;
+}
+.page6 .card-body p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.card-body h6{
+    color:  rgba(15, 148, 115, 0.856);
+    margin-bottom: 15px;
+}
+.form2{
+    background-image: url(../css/img_projetfinal/champ5.jpeg);
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-position: center;
+    margin-bottom: 5vh;
+    padding: 5vh;
+    margin-top: 4px;
+    justify-content: space-between;
+  }
+  .h3form2{
+    color: white;
+    text-align: center;
+    margin-bottom: 15vh;
+    font-size:xx-large;
+    font-weight:500;
+  }
+  .input1 input[type="text"],
+  input[type="email"] {
+
+    width: 100vh;
+    padding: 8px;
+    margin-left: 55vh;
+    border: none;
+    margin-bottom: 30px;
+  }
+ .input2 input[type="text"]{
+    width: 100vh;
+    height: 20vh;
+    margin-left: 55vh;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .form2 input[type="submit"]{
+    width: 100vh;
+    padding: 8px;
+    margin-left: 55vh;
+    border: none;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    background-color:  rgba(15, 148, 115, 0.856);
+  }
+  footer{
+    background-color: black;
+    
+  }
+  .pied{
+    height: 10vh;
+    padding: 10vh;
+    display: flex;
+    color: white;
+    margin-bottom: 25vh;
+    justify-content: space-between;
+  }
+  .objectif p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .heure{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .contact a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+  }
+  .droits {
+    background-color: white;
+    text-align: center;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    height: 5vh;
+    border-style: solid;
+  }
+ /* .droits p{
+    background-color: white;
+    text-align: center;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    height: 8vh;
+    
+  } */
+  .page_vide{
+    margin-left: 3vh;
+    margin-right: 3vh;
+    height: 15vh;
+    background-color: whitesmoke;
+    
+  }
