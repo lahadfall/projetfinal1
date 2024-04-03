@@ -1,0 +1,172 @@
+body{
+    background-color: white;
+}
+.bar{
+    
+}
+.grand{
+    display: flex;
+}
+.grand .navbar-brand{
+    margin-left: 20vh;
+    color: black;
+    margin-top: 20px;
+}
+.bar .petit .peu{
+    display: flex;
+    margin-left: 90vh;
+    color: black;
+    margin-top: 20px;
+}
+.bar .petit .peu a{
+    color: black;
+}
+
+.nav1{
+    text-align: center;
+    margin-top: 5vh;
+    
+    background-image: url(../css/images/N2..webp);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+    padding: 150px;
+    
+}
+.nav2{
+    display: flex;
+    padding: 150px;
+    margin-top: 5px;
+}
+.circle{
+    margin:10px;
+    width:200px;
+    /* background:#16b130; */
+    height:200px;
+    text-align:center;
+    border-radius:100px;
+    border: solid;
+    border-color: #3210f1;
+    line-height: 190px;
+}
+.rond{
+    clip-path: ellipse(50% 50%);
+}
+.nav2 img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 100px;
+}
+.nav3 .image img{
+    width: 175vh;
+    margin: 30vh;
+    margin-top: 10px;
+    margin-left: 25vh;
+    margin-bottom: 10vh;
+    
+}
+.nav3{
+    text-align: center;
+    background-color: rgba(247, 245, 245, 0.925);
+    
+}
+.nav3 .title-nav3 h2 {
+    border-bottom-width: 5px;
+}
+.nav4{
+    display: flex;
+    padding: 80px;
+    margin-left: 8vh;
+    margin-top: 1vh;
+    
+}
+.nav4 .image1 img{
+    width: 45vh;
+    height: 55vh;
+
+}
+.nav4 .image2 img{
+    width: 45vh;
+    height: 55vh;
+
+}
+.nav4 .cadre1{
+    text-align: center;
+    width: 45vh;
+    height: 55vh;
+    padding: 10vh;
+}
+.nav4 .cadre3{
+    text-align: center;
+    text-decoration-line: overline;
+    width: 45vh;
+    height: 55vh;
+    padding: 10vh;
+}
+.parti1{
+    display: flex;
+    border-style: groove;
+    margin-right: 1.5vh;
+    margin-left: 4vh;
+    width: 86vh;
+    
+}
+.parti2{
+    display: flex;
+    border-style: groove;
+    margin-left: 1.5vh;
+    width: 86vh
+}
+.nav5{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav6{
+    display: flex;
+    background-color: #e7e6ee;
+    
+}
+.part2{
+    display: flex;
+    margin-left: 70vh;
+    padding: 50px;
+    
+}
+.part1{
+    margin-left: 10vh;
+}
+.aide1 ul a{
+    text-decoration: none;
+    list-style: none;
+}
+.aide2 ul a{
+    text-decoration: none;
+    list-style: none;
+}
+.aide3 ul a{
+    text-decoration: none;
+    list-style: none;
+}
+.p1nav6{
+    font-size: larger;
+}
+/* .aide1 {
+    padding-left: 20px;
+} */
+.aide2 {
+    padding-left: 50px;
+}
+.aide3 {
+    padding-left: 50px;
+}
+.aide1 ul{
+    list-style: none;
+}
+.aide2 ul{
+    list-style: none;
+}
+.aide3 ul{
+    list-style: none;
+}

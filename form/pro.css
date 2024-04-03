@@ -1,0 +1,64 @@
+form{
+    background-color: white;
+    opacity: 0.6;
+    margin: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ndiay h1{
+    margin-left: 150px;
+}
+p{
+    text-align: center;
+}
+.marie h1{
+    color: black;
+    text-align: center;
+    
+}
+.ent{
+    display: flex;
+    flex-direction: column;
+}
+input[type="User Name"],[type="password"]{
+    padding: 10px;
+    margin: 10px;
+    width: 475px;
+    background-color: white;
+    
+}
+.submit{
+    width: 475px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.drop a{
+    text-decoration: none;
+}
+.logo{
+   
+    margin-left: 100vh;
+    
+}
+.logo img{
+    width: 20vh;
+    height: 20vh;
+}
+body{
+    background-image: url(../css/images/ucad4.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+@media screen(maxwidht:) {
+    
+}

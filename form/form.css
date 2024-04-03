@@ -1,0 +1,50 @@
+form {
+    margin: 1px 300px ;
+    padding: 50px;
+    border: 10px solid #505e52;
+    /* background-color: hsla(69, 57%, 61%, 0.801); */
+    background-image: url(../css/images/no-font/Scorpion-rm.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
+    
+  }
+  .logo{
+    margin-left: 80vh;
+  }
+  label {
+    margin-bottom: 10px;
+    display: block;
+    color: white
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .date{
+    display: flex;
+  }
+  
+  input[type="submit"] {
+    background-color: #16df1d;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  body{
+    background-image: url(../css/images/forêt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  h1{
+    color: white;
+    justify-content: space-between;
+  }
+  

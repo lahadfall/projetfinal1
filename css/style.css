@@ -1,0 +1,48 @@
+body{
+    color: rgb(15, 14, 14);
+    background-image: url(../css/images/no-font/Lion.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: right bottom;
+}
+.menu{
+justify-content: space-around;
+display: flex;
+} 
+.nav li{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    
+}
+.logo a{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+/*.logo a{
+    justify-content: left;
+    display: flex;
+    text-align: left;
+}   */
+p {
+    background-color: yellow;
+    margin: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+   
+}
+.nav a{
+text-decoration: none;
+text-align: right;
+justify-content: right;
+}
+h1{
+    justify-content: center;
+    display: contents;
+}
+/* .list {how to order a list vertically
+    display: flex;
+    flex-direction: column;
+  } */

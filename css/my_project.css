@@ -1,0 +1,31 @@
+body {
+    color: rgb(20, 209, 45);
+    background-image: url(../css/images/no-font/Lion.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-color: rgba(226, 228, 98, 0.842);
+}
+ .navig{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .navig .bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+ .navig .bar ul li{
+    margin-right: 20px;
+ }
+.navig .bar ul li a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+.navig .logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10vh;
+}
