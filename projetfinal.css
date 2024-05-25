@@ -62,9 +62,16 @@ body{
 
 /* Page 1 */
 .page1{
+  display: flex;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+.b2page1 img{
+  height: 100vh;
+}
+.b1page1{
     background-color: white;
-    margin-left: 3vh;
-    margin-right: 3vh;
+    
     margin-top: 2px;
     padding: 25vh;
     
@@ -436,5 +443,8 @@ body{
     margin-right: 3vh;
     height: 15vh;
     background-color: whitesmoke;
+    
+  }
+  @media screen {
     
   }
